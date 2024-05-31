@@ -5,6 +5,8 @@ A Java project done to complete the assesment for [TOPS SW Technical exercise.pd
 ## Project Instructions
 > Use the Makefile to run the project.
 >
+> You'll need to have `make` installed on your machine
+>
 > ALL COMMANDS MUST BE EXECCUTED IN THE ROOT DIRECTORY!
 
 To build all the source code targets:
