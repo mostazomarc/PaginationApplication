@@ -13,7 +13,7 @@ comptest:
 
 # Run the application
 run: all
-	java -cp . ./src/PaginationApplication.java
+	java -cp . ./src/PaginationApplication.java $(FILEPATH)
 
 # Run the test cases
 test: all

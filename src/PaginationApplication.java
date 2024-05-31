@@ -11,9 +11,19 @@ public class PaginationApplication {
     private static final int MAX_LINE_LENGTH = 80; // Maximum number of characters per line
     private static final int LINES_PER_PAGE = 25; // Maximum number of lines per page
 
+    //Method that prints the correct usage of the program
+    private static void Usage() {
+        System.out.println("Correct Usage: make run FILEPATH=./PathToInputFile.txt");
+        System.exit(1);
+    }
+
     //Main method that reads a file, paginates it and prints the pages
     public static void main(String[] args) {
-        String filePath = "./input/document.txt"; // Path to the file to be paginated
+        // Check if the correct number of arguments is passed and print the correct usage otherwise
+        if (args.length == 0) {
+            Usage();
+        }
+        String filePath = args[0]; // Path to the file to be paginated
         String file = ReadFile(filePath);
         List<List<String>> pages = paginate(file);
         printPages(pages);
