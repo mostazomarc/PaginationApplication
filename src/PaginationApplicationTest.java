@@ -1,8 +1,10 @@
+package src;
 import static org.junit.Assert.assertEquals;
 import java.util.ArrayList;
 import static org.junit.Assert.fail;
 import java.util.List;
 import org.junit.Test;
+
 import java.io.IOException;
 import static org.junit.Assert.*;
 import java.io.BufferedReader;
