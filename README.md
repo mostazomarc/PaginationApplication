@@ -1,8 +1,8 @@
-# PaginationApplication
+# 📄 PaginationApplication
 
 A Java project done to complete the assesment for [TOPS SW Technical exercise.pdf](https://github.com/mostazomarc/PaginationApplication/blob/paginationApplication/TOPS%20SW%20Technical%20exercise.pdf).
 
-## Project Instructions
+## ⚙️ Project Instructions
 > Use the Makefile to run the project.
 >
 > You'll need to have `make` installed on your machine
@@ -42,7 +42,7 @@ To clean the build and output artifacts:
 make clean
 ```
 
-## Project Structure
+## 📂 Project Structure
 ```
 .
 ├── LICENSE                         #LICENSE of the repo
@@ -65,5 +65,5 @@ make clean
     └── PaginationApplicationTest.java  # Source code for PaginationApplication test
 ```
 
-## Author
+## ✍️ Author
 - Mostazo Gonzàlez, Marc
