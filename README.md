@@ -1,6 +1,6 @@
 # 📄 PaginationApplication
 
-A Java project done to complete the assesment for [TOPS SW Technical exercise.pdf](https://github.com/mostazomarc/PaginationApplication/blob/paginationApplication/TOPS%20SW%20Technical%20exercise.pdf).
+A Java project done to complete the assesment for [TOPS SW Technical exercise.pdf](https://github.com/mostazomarc/PaginationApplication/blob/master/TOPS%20SW%20Technical%20exercise.pdf).
 
 ## ⚙️ Project Instructions
 > Use the Makefile to run the project.
